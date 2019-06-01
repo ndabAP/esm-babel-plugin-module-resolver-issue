@@ -1,0 +1,50 @@
+{
+  "name": "esm-babel-plugin-module-resolver-issue",
+  "version": "0.0.0",
+  "private": false,
+  "description": "esm issue",
+  "author": "Julian Claus <kontakt@julian-claus.de>",
+  "scripts": {
+    "dev": "nodemon -r esm ./src/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-function-sent": "^7.2.0",
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "@babel/traverse": "^7.4.4",
+    "@babel/types": "^7.4.4",
+    "auto-parse": "^1.7.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "esm": "^3.2.25",
+    "express": "^4.17.0",
+    "node-gyp": "^4.0.0",
+    "remove": "^0.1.5",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "engines": {
+    "node": "^11",
+    "npm": "^6"
+  },
+  "esm": {
+    "await": true
+  }
+}
